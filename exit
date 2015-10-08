@@ -1,0 +1,26 @@
+
+[1mFrom:[0m /vagrant/w1d4/candidate/filters.rb @ line 107 Object#ordered_by_qualifications:
+
+     [1;34m90[0m: [32mdef[0m [1;34mordered_by_qualifications[0m(array)
+     [1;34m91[0m: 
+     [1;34m92[0m: [1;34m# loop do [0m
+     [1;34m93[0m: [1;34m#     swapped = false[0m
+     [1;34m94[0m: 
+     [1;34m95[0m: [1;34m#   for i in 0..(array.length-1)[0m
+     [1;34m96[0m: [1;34m#     if array[i][:years_of_experience] > array[i+1][:years_of_experience][0m
+     [1;34m97[0m: [1;34m#       array[i], array[i+1] = array[i+1], array[i][0m
+     [1;34m98[0m: [1;34m#       swapped = true[0m
+     [1;34m99[0m: [1;34m#     end[0m
+    [1;34m100[0m: [1;34m#   end[0m
+    [1;34m101[0m: 
+    [1;34m102[0m: [1;34m#   break if not swapped[0m
+    [1;34m103[0m: [1;34m# end[0m
+    [1;34m104[0m: [1;34m#   array[0m
+    [1;34m105[0m: 
+    [1;34m106[0m: [32mfor[0m i [32min[0m [1;34m0[0m..(array.length-[1;34m1[0m)
+ => [1;34m107[0m:   binding.pry
+    [1;34m108[0m:   puts array[i][[33m:years_of_experience[0m]
+    [1;34m109[0m: [32mend[0m
+    [1;34m110[0m: 
+    [1;34m111[0m: [32mend[0m
+
